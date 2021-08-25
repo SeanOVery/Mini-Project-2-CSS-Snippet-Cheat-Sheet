@@ -1,0 +1,45 @@
+:root {
+    --main-text-color: rgba(232, 103, 237, 1);
+    --secondary-text-color: rgba(224, 234, 229, 1);
+    --bgcolor: rgba(51, 57, 64, 1);
+}
+
+header {
+    color: var(--main-text-color);
+    text-align: center;
+    background-color: var(--bgcolor);
+}
+
+body {
+    background-color: var(--bgcolor);
+}
+
+.snips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    flex: 1 0 33%;
+    border-style: dashed;
+    border-width: 2px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.card header {
+    color: var(--main-text-color);
+    position: relative;
+    margin-top: -20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: var(--main-text-color)
+}
+
+footer a {
+    color: var(--main-text-color);
+}
