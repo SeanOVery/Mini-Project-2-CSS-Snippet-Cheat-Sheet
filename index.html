@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/agate.min.css"/>
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>CSS Cheatsheet</title>
@@ -26,29 +27,34 @@
                 <header>Flexbox Row</header>
                 <p>Use these three properties to create a Flexbox row layout.</p>
                 <pre class="linear-gradient">
+                    <code class="language-css">
   
     .row {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+                    </code>
                 </pre>
             </section>
             <section class="card">
                 <header>Flexbox Column</header>
                 <p>Use this to create a Flexbox column layout</p>
                 <pre class="linear-gradient">
+                    <code class="language-css">
 
     .column{
         display: flex;
         flex-direction: column;
     }
+                    </code>         
                 </pre>
             </section>
             <section class="card">
                 <header>CSS Grid Layout</header>
                 <p>Build a 12-column layout using CSS Grid.</p>
                 <pre class="linear-gradient">
+                    <code class="language-css">
 
     .grid {
         display: grid;
@@ -56,12 +62,14 @@
         grid-template-columns:
     repeat(12, 1fr);
     }
+                    </code>         
                 </pre>
             </section>
             <section class="card">
                 <header>Linear Gradients</header>
                 <p>This will create a background linear gradient from top to bottom.</p>
                 <pre class="linear-gradient">
+                    <code class="language-css">
 
     .linear-gradient-background {
         background-image: linear-
@@ -70,12 +78,14 @@
         rgba(232, 102, 236, 0.6) 100%
         );
     }
+                    </code>         
                 </pre>
             </section>
             <section class="card">
                 <header>Box Transition Glow</header>
                 <p>Use transition and box shadows to glow on hover.</p>
                 <pre class="linear-gradient">
+                    <code class="language-css">
 
     .code-card .card-header {
         border-radius: 8px;
@@ -89,17 +99,20 @@
     rgba(232, 102, 236, 1), 0 0 15px
     rgba(232, 102, 236, 1);
     }
+                    </code>         
                 </pre>
             </section>
             <section class="card">
                 <header>Overlay Card with Title</header>
                 <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
                 <pre class="linear-gradient">
+                    <code class="language-css">
 
     .card-header {
         position: relative;
         margin-top: -20px;
     }
+                    </code>         
                 </pre>
             </section>
         </div>
@@ -108,7 +121,8 @@
     <footer>
         <h2>My GitHub <a href="https://github.com/SeanOVery">Here</a>.</h2>
     </footer>
-
+    <script src="./highlight.min.js"></script>
+    <script>hljs.highlightAll()</script>
 </body>
 
 </html>
